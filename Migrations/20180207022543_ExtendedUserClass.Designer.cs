@@ -11,9 +11,10 @@ using System;
 namespace DateYoWaifu.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20180207022543_ExtendedUserClass")]
+    partial class ExtendedUserClass
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -33,8 +34,6 @@ namespace DateYoWaifu.API.Migrations
                     b.Property<bool>("IsMain");
 
                     b.Property<DateTime>("LastEdited");
-
-                    b.Property<string>("PublicId");
 
                     b.Property<string>("Title");
 

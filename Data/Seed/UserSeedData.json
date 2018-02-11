@@ -1,0 +1,127 @@
+[
+    {
+        "Username": "saber",
+        "Email": "xaiyeon@gmail.com",
+        "Password": "seed1",
+        "ProfileImageURL": "https://s3.amazonaws.com/dateyowaifu/users/saber-xaiyeon/xaiyeon-saber.gif",
+        "Gender": "female",
+        "Ethnicity": "japanese",
+        "DateOfBirth": "0001-01-01",
+        "KnownAs": "Saber, Once and Future King",
+        "Introduction": "Hey Master! I'm Saber, a strong-willed young woman who always speaks resolutely. I am courageous, determined, and set on winning the Holy Grail for my lovely Master.",
+        "LookingFor": "I'm looking for the next human that wants to become a hero and live eternally.",
+        "Interests": "Brilliant meals and stuffed animals.",
+        "City": "England",
+        "Country": "Britain",
+        "DateCreated": "2018-02-05",
+        "LastEdit": "2018-02-05",
+        "LastActive": "2018-02-05",
+        "Photos": [
+            {
+                "Url": "https://s3.amazonaws.com/dateyowaifu/users/saber-xaiyeon/xaiyeon-saber.gif",
+                "Title": "EXCALIBUR!!",
+                "Description": "I blow the brains out of my Master with a powerful technique.",
+                "DateUploaded": "2018-02-05",
+                "LastEdited": "2018-02-05",
+                "IsMain": true,
+                "IsCover": true
+            }
+        ]
+
+    },
+
+    {
+        "Username": "rias-gremory",
+        "Email": "hidevroyce@gmail.com",
+        "Password": "seed2",
+        "ProfileImageURL": "https://s3.amazonaws.com/dateyowaifu/users/rias-gremory/rias-gremory.gif",
+        "Gender": "female",
+        "Ethnicity": "japanese",
+        "DateOfBirth": "0001-01-01",
+        "KnownAs": "Rias, Princess of Destruction",
+        "Introduction": "Tch. Don't waste my time. I go to Kuoh Academy and am really looking for a strong stud and not a weakling that hides like a rabbit.",
+        "LookingFor": "Did you read my introduction?",
+        "Interests": "I don't know.",
+        "City": "Neo-Tokyo",
+        "Country": "Underworld",
+        "DateCreated": "2018-02-05",
+        "LastEdit": "2018-02-05",
+        "LastActive": "2018-02-05",
+        "Photos": [
+            {
+                "Url": "https://s3.amazonaws.com/dateyowaifu/users/rias-gremory/rias-gremory.gif",
+                "Title": "Hey There",
+                "Description": "I'm trying a new hair style.",
+                "DateUploaded": "2018-02-05",
+                "LastEdited": "2018-02-05",
+                "IsMain": true,
+                "IsCover": true
+            }
+        ]
+
+    },
+
+    {
+        "Username": "haruka-nanase",
+        "Email": "sudoanon1@gmail.com",
+        "Password": "seed3",
+        "ProfileImageURL": "https://s3.amazonaws.com/dateyowaifu/users/haruka-nanase/haruka-nanase.gif",
+        "Gender": "male",
+        "Ethnicity": "japanese",
+        "DateOfBirth": "2000-06-30",
+        "KnownAs": "Haru, Haru-Chan",
+        "Introduction": "I'm a try-hard, but a really great one. I compete and do swimming full-time competitively. There's no point in going if you don't let my friend go as well.",
+        "LookingFor": "A swimming buddy, really.",
+        "Interests": "Just the water and maybe something else.",
+        "City": "Iwatobi",
+        "Country": "Japan",
+        "DateCreated": "2018-02-05",
+        "LastEdit": "2018-02-05",
+        "LastActive": "2018-02-05",
+        "Photos": [
+            {
+                "Url": "https://s3.amazonaws.com/dateyowaifu/users/haruka-nanase/haruka-nanase.gif",
+                "Title": "Just got out of the pool like this",
+                "Description": "I'm so wet.",
+                "DateUploaded": "2018-02-05",
+                "LastEdited": "2018-02-05",
+                "IsMain": true,
+                "IsCover": true
+            }
+        ]
+
+    },
+
+    {
+        "Username": "blue-oak",
+        "Email": "zinroyce@gmail.com",
+        "Password": "seed4",
+        "ProfileImageURL": "https://s3.amazonaws.com/dateyowaifu/users/blue-oak/blue-oak.gif",
+        "Gender": "male",
+        "Ethnicity": "japanese",
+        "DateOfBirth": "0001-01-01",
+        "KnownAs": "Gary, Battle Legend",
+        "Introduction": "I'm Blue and I'm the best Pokemon trainer out there.",
+        "LookingFor": "A girl that can flex her Pokemon.",
+        "Interests": "Strong Pokemon.",
+        "City": "Pallet Town",
+        "Country": "Kanto",
+        "DateCreated": "2018-02-05",
+        "LastEdit": "2018-02-05",
+        "LastActive": "2018-02-05",
+        "Photos": [
+            {
+                "Url": "https://s3.amazonaws.com/dateyowaifu/users/blue-oak/blue-oak.gif",
+                "Title": "GET REKT!",
+                "Description": "I scream at my Pokemon for more power.",
+                "DateUploaded": "2018-02-05",
+                "LastEdited": "2018-02-05",
+                "IsMain": true,
+                "IsCover": true
+            }
+        ]
+
+    }
+
+]
+

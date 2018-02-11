@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DateYoWaifuApp.API.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace DateYoWaifu.API.Controllers
 {
     // This is an attribute route
+    [AllowAnonymous]
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
@@ -27,6 +29,7 @@ namespace DateYoWaifu.API.Controllers
             to asynchronous which handles higher access.
          */
 
+        [AllowAnonymous]
         // GET api/values
         [HttpGet]
         public async  Task<IActionResult> GetValues()
