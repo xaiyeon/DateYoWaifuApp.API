@@ -19,6 +19,57 @@ namespace DateYoWaifu.API.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.0.1-rtm-125");
 
+            modelBuilder.Entity("DateYoWaifuApp.API.Models.Like", b =>
+                {
+                    b.Property<int>("LikerId");
+
+                    b.Property<int>("LikeeId");
+
+                    b.Property<DateTime>("DateCreated");
+
+                    b.Property<DateTime>("DateEdited");
+
+                    b.Property<string>("Note");
+
+                    b.HasKey("LikerId", "LikeeId");
+
+                    b.HasIndex("LikeeId");
+
+                    b.ToTable("Likes");
+                });
+
+            modelBuilder.Entity("DateYoWaifuApp.API.Models.Message", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Content");
+
+                    b.Property<DateTime?>("DateRead");
+
+                    b.Property<DateTime>("DateSent");
+
+                    b.Property<bool>("RecipientDeleted");
+
+                    b.Property<int>("RecipientId");
+
+                    b.Property<bool>("SenderDeleted");
+
+                    b.Property<int>("SenderId");
+
+                    b.Property<string>("Title");
+
+                    b.Property<bool>("isRead");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RecipientId");
+
+                    b.HasIndex("SenderId");
+
+                    b.ToTable("Messages");
+                });
+
             modelBuilder.Entity("DateYoWaifuApp.API.Models.Photo", b =>
                 {
                     b.Property<int>("Id")
@@ -93,16 +144,30 @@ namespace DateYoWaifu.API.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("DateYoWaifuApp.API.Models.Value", b =>
+            modelBuilder.Entity("DateYoWaifuApp.API.Models.Like", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
+                    b.HasOne("DateYoWaifuApp.API.Models.User", "Liker")
+                        .WithMany("Likee")
+                        .HasForeignKey("LikeeId")
+                        .OnDelete(DeleteBehavior.Restrict);
 
-                    b.Property<string>("Name");
+                    b.HasOne("DateYoWaifuApp.API.Models.User", "Likee")
+                        .WithMany("Liker")
+                        .HasForeignKey("LikerId")
+                        .OnDelete(DeleteBehavior.Restrict);
+                });
 
-                    b.HasKey("Id");
+            modelBuilder.Entity("DateYoWaifuApp.API.Models.Message", b =>
+                {
+                    b.HasOne("DateYoWaifuApp.API.Models.User", "Recipient")
+                        .WithMany("MessagesReceived")
+                        .HasForeignKey("RecipientId")
+                        .OnDelete(DeleteBehavior.Restrict);
 
-                    b.ToTable("Values");
+                    b.HasOne("DateYoWaifuApp.API.Models.User", "Sender")
+                        .WithMany("MessagesSent")
+                        .HasForeignKey("SenderId")
+                        .OnDelete(DeleteBehavior.Restrict);
                 });
 
             modelBuilder.Entity("DateYoWaifuApp.API.Models.Photo", b =>

@@ -2,10 +2,10 @@
     {
         "Username": "saber",
         "Email": "xaiyeon@gmail.com",
-        "Password": "seed1",
-        "ProfileImageURL": "https://s3.amazonaws.com/dateyowaifu/users/saber-xaiyeon/xaiyeon-saber.gif",
+        "Password": "seed1234",
+        "ProfileImageURL": "https://s3.amazonaws.com/mywaifuonline/users/saber/saber.gif",
         "Gender": "female",
-        "Ethnicity": "japanese",
+        "Ethnicity": "british",
         "DateOfBirth": "0001-01-01",
         "KnownAs": "Saber, Once and Future King",
         "Introduction": "Hey Master! I'm Saber, a strong-willed young woman who always speaks resolutely. I am courageous, determined, and set on winning the Holy Grail for my lovely Master.",
@@ -18,7 +18,7 @@
         "LastActive": "2018-02-05",
         "Photos": [
             {
-                "Url": "https://s3.amazonaws.com/dateyowaifu/users/saber-xaiyeon/xaiyeon-saber.gif",
+                "Url": "https://s3.amazonaws.com/mywaifuonline/users/saber/saber.gif",
                 "Title": "EXCALIBUR!!",
                 "Description": "I blow the brains out of my Master with a powerful technique.",
                 "DateUploaded": "2018-02-05",
@@ -33,8 +33,8 @@
     {
         "Username": "rias-gremory",
         "Email": "hidevroyce@gmail.com",
-        "Password": "seed2",
-        "ProfileImageURL": "https://s3.amazonaws.com/dateyowaifu/users/rias-gremory/rias-gremory.gif",
+        "Password": "seed1234",
+        "ProfileImageURL": "https://s3.amazonaws.com/mywaifuonline/users/rias-gremory/rias-gremory.gif",
         "Gender": "female",
         "Ethnicity": "japanese",
         "DateOfBirth": "0001-01-01",
@@ -49,7 +49,7 @@
         "LastActive": "2018-02-05",
         "Photos": [
             {
-                "Url": "https://s3.amazonaws.com/dateyowaifu/users/rias-gremory/rias-gremory.gif",
+                "Url": "https://s3.amazonaws.com/mywaifuonline/users/rias-gremory/rias-gremory.gif",
                 "Title": "Hey There",
                 "Description": "I'm trying a new hair style.",
                 "DateUploaded": "2018-02-05",
@@ -60,12 +60,82 @@
         ]
 
     },
+    {
+        "Username": "asuna-yuuki",
+        "Email": "skwroyce@gmail.com",
+        "Password": "seed1234",
+        "ProfileImageURL": "https://s3.amazonaws.com/mywaifuonline/users/asuna-yuuki/asuna-yuuki.gif",
+        "Gender": "female",
+        "Ethnicity": "japanese",
+        "DateOfBirth": "2007-09-30",
+        "KnownAs": "Asuna, The Flash",
+        "Introduction": "I'm Asuna a shy girl... I was the sub-leader of Knights of The Blood, a very prestigious guild in Aincrad. I didn't know what was happening at first in the beginning. However, the leader hooked me up with his son like an arranged marriage. I left Kirito and am here to find a better person.",
+        "LookingFor": "I'm searching for someone that can starburst stream at a rate faster than I can thrust my mighty rapier at enemies.",
+        "Interests": "I love cooking, taking care of you, and love to get physically competative.",
+        "City": "Tokyo",
+        "Country": "Japan",
+        "DateCreated": "2018-02-12",
+        "LastEdit": "2018-02-05",
+        "LastActive": "2018-02-05",
+        "Photos": [
+            {
+                "Url": "https://s3.amazonaws.com/mywaifuonline/users/asuna-yuuki/asuna-yuuki.gif",
+                "Title": "I run the kitchen",
+                "Description": "I can cook way better than any chef.",
+                "DateUploaded": "2018-02-13",
+                "LastEdited": "2018-02-13",
+                "IsMain": true,
+                "IsCover": false
+            },
+            {
+                "Url": "https://s3.amazonaws.com/mywaifuonline/users/asuna-yuuki/asuna-yuuki-away.gif",
+                "Title": "The Only Thing He's Good At",
+                "Description": "Is taking my hand and running...",
+                "DateUploaded": "2018-02-14",
+                "LastEdited": "2018-02-13",
+                "IsMain": false,
+                "IsCover": true
+            }
+        ]
+
+    },
+
+    {
+        "Username": "chitoge-kirisaki",
+        "Email": "xaiyeon@outlook.com",
+        "Password": "seed1234",
+        "ProfileImageURL": "https://s3.amazonaws.com/mywaifuonline/users/chitoge-kirisaki/chitoge-kirisaki.gif",
+        "Gender": "female",
+        "Ethnicity": "hafu",
+        "DateOfBirth": "2007-06-07",
+        "KnownAs": "Chitoge, Hāfu-san",
+        "Introduction": "I am very smart and completely fluent in both English and Japanese despite growing up in America, being half-Japanese. I could be somewhat forgetful, aggressive and quick to attack someone who gets on my nerves. However, once someone gets to know me better, I become very talkative and nice.",
+        "LookingFor": "Someone to open that door for me.",
+        "Interests": "I can parkour like a pro. I cannot cook for the sake of my life though... I enjoy eating ramen.",
+        "City": "San Francisco",
+        "Country": "USA",
+        "DateCreated": "2018-02-14",
+        "LastEdit": "2018-02-05",
+        "LastActive": "2018-02-14",
+        "Photos": [
+            {
+                "Url": "https://s3.amazonaws.com/mywaifuonline/users/chitoge-kirisaki/chitoge-kirisaki.gif",
+                "Title": "Cleaning outside",
+                "Description": "I can do housework, see!",
+                "DateUploaded": "2018-02-14",
+                "LastEdited": "2018-02-14",
+                "IsMain": true,
+                "IsCover": false
+            }
+        ]
+
+    },
 
     {
         "Username": "haruka-nanase",
         "Email": "sudoanon1@gmail.com",
-        "Password": "seed3",
-        "ProfileImageURL": "https://s3.amazonaws.com/dateyowaifu/users/haruka-nanase/haruka-nanase.gif",
+        "Password": "seed1234",
+        "ProfileImageURL": "https://s3.amazonaws.com/mywaifuonline/users/haruka-nanase/haruka-nanase.gif",
         "Gender": "male",
         "Ethnicity": "japanese",
         "DateOfBirth": "2000-06-30",
@@ -80,7 +150,7 @@
         "LastActive": "2018-02-05",
         "Photos": [
             {
-                "Url": "https://s3.amazonaws.com/dateyowaifu/users/haruka-nanase/haruka-nanase.gif",
+                "Url": "https://s3.amazonaws.com/mywaifuonline/users/haruka-nanase/haruka-nanase.gif",
                 "Title": "Just got out of the pool like this",
                 "Description": "I'm so wet.",
                 "DateUploaded": "2018-02-05",
@@ -95,8 +165,8 @@
     {
         "Username": "blue-oak",
         "Email": "zinroyce@gmail.com",
-        "Password": "seed4",
-        "ProfileImageURL": "https://s3.amazonaws.com/dateyowaifu/users/blue-oak/blue-oak.gif",
+        "Password": "seed1234",
+        "ProfileImageURL": "https://s3.amazonaws.com/mywaifuonline/users/blue-oak/blue-oak.gif",
         "Gender": "male",
         "Ethnicity": "japanese",
         "DateOfBirth": "0001-01-01",
@@ -111,10 +181,70 @@
         "LastActive": "2018-02-05",
         "Photos": [
             {
-                "Url": "https://s3.amazonaws.com/dateyowaifu/users/blue-oak/blue-oak.gif",
+                "Url": "https://s3.amazonaws.com/mywaifuonline/users/blue-oak/blue-oak.gif",
                 "Title": "GET REKT!",
                 "Description": "I scream at my Pokemon for more power.",
                 "DateUploaded": "2018-02-05",
+                "LastEdited": "2018-02-05",
+                "IsMain": true,
+                "IsCover": true
+            }
+        ]
+
+    },
+    {
+        "Username": "kanji-tatsumi",
+        "Email": "xaiyeongaming@outlook.com",
+        "Password": "seed1234",
+        "ProfileImageURL": "https://s3.amazonaws.com/mywaifuonline/users/kanji-tatsumi/kanji-tatsumi.gif",
+        "Gender": "bisexual",
+        "Ethnicity": "japanese",
+        "DateOfBirth": "1996-01-19",
+        "KnownAs": "Kanji, The Bloodcurdling Beefcake Emperor",
+        "Introduction": "I still don't really get what bein' 'strong' means, but I'm gonna start by not lying to myself. No more being scared of everyone, hiding my hobbies, staying away from people... Anytime, anyplace, I'm gonna bust right through as my own self! That's the way to deal with that 'other me' in the TV world.",
+        "LookingFor": "Cute people.",
+        "Interests": "Showing my true persona to the wurld.",
+        "City": "Inaba",
+        "Country": "Japan",
+        "DateCreated": "2018-02-14",
+        "LastEdit": "2018-02-05",
+        "LastActive": "2018-02-09",
+        "Photos": [
+            {
+                "Url": "https://s3.amazonaws.com/mywaifuonline/users/kanji-tatsumi/kanji-tatsumi.gif",
+                "Title": "so many hearts",
+                "Description": "i look really cool here",
+                "DateUploaded": "2018-02-14",
+                "LastEdited": "2018-02-05",
+                "IsMain": true,
+                "IsCover": true
+            }
+        ]
+
+    },
+    {
+        "Username": "tanikaze-nagate",
+        "Email": "roycegaming@outlook.com",
+        "Password": "seed1234",
+        "ProfileImageURL": "https://s3.amazonaws.com/mywaifuonline/users/tanikaze-nagate/tanikaze-nagate.gif",
+        "Gender": "nonbinary",
+        "Ethnicity": "sidonian",
+        "DateOfBirth": "0001-01-01",
+        "KnownAs": "Tanikaze, The Pilot of Tsugumori",
+        "Introduction": "Where do I begin? I was born into a world of chaos and destruction... I eat a lot.",
+        "LookingFor": "A place with no Gaunas.",
+        "Interests": "Humans, real plants, and the tastiest rice in the world.",
+        "City": "Sidonia",
+        "Country": "Sidonia",
+        "DateCreated": "2018-02-13",
+        "LastEdit": "2018-02-05",
+        "LastActive": "2018-02-05",
+        "Photos": [
+            {
+                "Url": "https://s3.amazonaws.com/mywaifuonline/users/tanikaze-nagate/tanikaze-nagate.gif",
+                "Title": "I Still Ate it.",
+                "Description": "When you give room service...",
+                "DateUploaded": "2018-02-14",
                 "LastEdited": "2018-02-05",
                 "IsMain": true,
                 "IsCover": true

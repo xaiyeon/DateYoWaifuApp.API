@@ -25,5 +25,16 @@ namespace DateYoWaifuApp.API.Data
         Task<Photo> GetPhoto(int id);
         Task<Photo> GetMainPhotoForUser(int userId);
 
+        Task<Like> GetLike(int userId, int recipientId);
+
+        // message id
+        Task<Message> GetMessage(int id);
+
+        // Hm
+        Task<PagedList<Message>> GetMessagesForUser(UserMessageParams usermessageParams);
+
+        // Get messages sent by two users
+        Task<IEnumerable<Message>> GetMessageThread(int userId, int recipientId);
+
     }
 }

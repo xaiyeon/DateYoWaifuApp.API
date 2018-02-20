@@ -6,6 +6,7 @@ using AutoMapper;
 using DateYoWaifuApp.API.Data;
 using DateYoWaifuApp.API.Dtos;
 using DateYoWaifuApp.API.Helpers;
+using DateYoWaifuApp.API.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -113,6 +114,38 @@ namespace DateYoWaifuApp.API.Controllers
 
         }
 
+        // For liking our users
+        [HttpPost("{id}/like/{recipientId}")]
+        public async Task<IActionResult> LikeUser ( int id, int recipientId) {
+            if (id !=  int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value)){
+                return Unauthorized();
+            }
+            var like = await _repo.GetLike(id , recipientId);
+            if (like != null) {
+                return BadRequest("Master... You love it already!");
+            }
+
+            if (await _repo.GetUser(recipientId) == null) {
+                return NotFound();
+            }
+
+            // I added a DateTime field
+            like = new Like {
+                LikerId = id,
+                LikeeId = recipientId,
+                DateCreated = DateTime.Now
+                
+            };
+
+            _repo.Add<Like>(like);
+            if (await _repo.SaveAll()) {
+                // fixing weird like for card
+                return Ok(new {});
+            }
+
+            return BadRequest("Master... I failed to like it for you!");
+
+        }
 
 
     }

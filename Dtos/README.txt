@@ -6,3 +6,7 @@ It also makes sense to add Data Annotations here for our data going to our API a
 
 
 In the lesson Section 8. We used AutoMapper to shape and link our Dto and data.
+
+DTO are Data-Transfer-Objects that do not contain any business logic, but provide simple setters and getters for
+accessing data from other models. They are like a middle layer between actual models and the controller/business logic.
+This way you do not ruin your database object models.

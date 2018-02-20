@@ -33,6 +33,14 @@ namespace DateYoWaifuApp.API.Models
         // This is a relationship, a one to many
         public ICollection<Photo> Photos { get; set;}
 
+        // Relationship for User's to like each other
+        public ICollection<Like> Liker { get; set;}
+        public ICollection<Like> Likee { get; set;}
+
+        // Relationship for messages
+        public ICollection<Message> MessagesSent { get; set;}
+        public ICollection<Message> MessagesReceived { get; set;}
+
         public User() {
             Photos = new Collection<Photo>();
         }

@@ -21,5 +21,10 @@ namespace DateYoWaifuApp.API.Helpers
         // For sorting
         public string OrderBy { get; set;}
 
+        // For likes
+        public bool Likees { get; set;} = false;
+        public bool Likers { get; set;} = false;
+
+
     }
 }

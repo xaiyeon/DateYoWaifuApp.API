@@ -25,7 +25,7 @@ namespace DateYoWaifuApp.API.Helpers
 
         public static async Task<PagedList<T>> CreateAsync(IQueryable<T> source, int pgNum, int pgSize) {
             var count = await source.CountAsync();
-            var items = await source.Skip((pgNum -1) * pgSize).Take(pgSize).ToListAsync();
+            var items = await source.Skip((pgNum - 1) * pgSize).Take(pgSize).ToListAsync();
             return new PagedList<T>(items, count, pgNum, pgSize);
         }
         
